@@ -5,7 +5,7 @@ Iceberg remoteTypeSelector: #httpsUrl.
 #BaselineOfMicrodown asPackage removeFromSystem.
 { 
 	{ 'github://estebanlm/Microdown:v1/src'. 'Microdown'. 'Macrodown' }.
-	{ 'github://demarey/foliage:v1.4/src'. 'Foliage'. 'Publisher' }.
+	{ 'github://demarey/foliage:master/src'. 'Foliage'. 'Publisher' }.
 } do: [ :each |
 	[ 
 		Metacello new
